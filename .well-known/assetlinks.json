@@ -11,5 +11,18 @@
         "A2:5E:B8:DF:5E:01:56:51:D6:D5:28:49:F7:9B:84:50:B9:B3:63:53:92:16:00:C2:2E:45:4D:4F:00:37:2F:C6"
       ]
     }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.parity.polkadotapp.safetynet",
+      "sha256_cert_fingerprints": [
+        "A2:5E:B8:DF:5E:01:56:51:D6:D5:28:49:F7:9B:84:50:B9:B3:63:53:92:16:00:C2:2E:45:4D:4F:00:37:2F:C6"
+      ]
+    }
   }
 ]
